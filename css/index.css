@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333; }
+
+img {
+  border: none; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+:focus {
+  outline: none; }
+
+[v-cloak] {
+  display: none; }
+
+.CodeMirror-gutters {
+  border-left: none !important; }
+
+.cm-s-mdn-like.CodeMirror {
+  background: none !important; }
+
+aside {
+  z-index: 2;
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 100%;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: #444;
+  color: #fff; }
+  aside .scheme li {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 0 40px 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 30px;
+    cursor: default; }
+    aside .scheme li .toggle {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      width: 30px;
+      height: 30px;
+      cursor: pointer; }
+      aside .scheme li .toggle i {
+        z-index: 1;
+        position: absolute;
+        right: 11px;
+        top: 11px;
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 10px;
+        background: #666; }
+      aside .scheme li .toggle.active i {
+        background: #0a0; }
+    aside .scheme li:hover, aside .scheme li.active {
+      background: #4c4c4c; }
+  aside .scheme .all-scheme {
+    margin-bottom: 4px;
+    border-bottom: 1px solid #3c3c3c; }
+  aside .action {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box; }
+    aside .action span {
+      margin-right: 4px;
+      padding: 4px;
+      cursor: pointer; }
+      aside .action span.disabled {
+        color: #999;
+        cursor: default; }
+
+.editor {
+  z-index: 1;
+  position: relative;
+  padding-left: 160px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #eee; }
+  .editor .editor-container {
+    width: 100%;
+    height: 100%; }
+    .editor .editor-container textarea {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 4px 10px;
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+      resize: none;
+      font-family: Menlo, "Source Code Pro", Monaco, "Courier New", sans-serif;
+      line-height: 20px;
+      font-size: 12px; }
+    .editor .editor-container .CodeMirror {
+      height: 100%; }
+  .editor .save {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 8px 20px;
+    background: #e6e6e6;
+    border-radius: 2px;
+    cursor: pointer; }
+    .editor .save:hover {
+      background: #d9d9d9; }

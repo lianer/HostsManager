@@ -1,0 +1,28 @@
+{
+	"name": "HostsManager",
+	"main": "index.html",
+	"window": {
+		"title": "HostsManager",
+		"icon": "hm-logo.png",
+		"position": "center",
+		"width": 768,
+		"height": 480,
+		"toolbar": false,
+		"frame": true,
+		"resizable": true,
+		"min_width": 500,
+		"min_height": 240
+	},
+	"contributors": [{
+		"name": "Lianer",
+		"email": "lianer@live.cn",
+		"web": ""
+	}],
+	"dependencies": {
+		"gulp": "^3.9.1",
+		"gulp-livereload": "^3.8.1",
+		"gulp-plumber": "^1.1.0",
+		"gulp-sass": "^2.3.1",
+		"gulp-util": "^3.0.7"
+	}
+}
