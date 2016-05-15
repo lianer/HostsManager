@@ -9,7 +9,7 @@ HostsManger是一个基于nw.js(node + webkit)开发的hosts管理工具，目�
 ![HostsManager](https://raw.githubusercontent.com/lianer/HostsManager/master/img/screenshots/2.gif)
 
 # 下载地址
-[百度网盘]
+[百度网盘](http://pan.baidu.com/s/1i5rqwTn)
 
 # 更新历史
 
