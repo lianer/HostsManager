@@ -6,7 +6,13 @@ var fs = require('fs');
  * -4058: 文件未找到
  */
 
-var src = 'C:/Windows/System32/drivers/etc/hosts';
+var src;
+if(process.platform === 'linux') {
+	src = '/etc/hosts';
+}
+else{
+	src = 'C:/Windows/System32/drivers/etc/hosts';
+}
 
 
 var ERROR_MESSAGE = {
@@ -34,7 +40,7 @@ var write = function (str, cb) {
 			}
 			throw err;
 		}
-		cb();
+		cb && cb();
 	});
 };
 
@@ -48,6 +54,6 @@ module.exports = {
 };
 
 
-// read(function (err, str) {
+// read(function (str) {
 // 	console.log(str);
 // });

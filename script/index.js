@@ -29,6 +29,7 @@ var extendScheme = function(o) {
 
 // 从本地存储读取数据
 database.read("schemes", function(schemes) {
+	console.log(2)
 	// 如果从本地读取到了数据，则直接启动
 	if (schemes) {
 		start(schemes);
