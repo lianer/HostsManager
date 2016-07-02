@@ -1,15 +1,17 @@
 # HostsManager
 
-HostsManger是一个基于nw.js(node + webkit)开发的hosts管理工具，目前仅支持windows平台，需要以管理员权限运行。
+HostsManger是一个基于nw.js开发的hosts管理工具，实现了如下功能：
+* Hosts方案管理，快速切换开与关
+* 点击行号可注释当前行
+* 支持大部分Sublime Text的快捷键
 
-![HostsManager](https://raw.githubusercontent.com/lianer/HostsManager/master/img/screenshots/1.png)
+[下载地址](http://fs.imlianer.com/hostsmanager/hostsmanager-1.0.exe)
 
-多个方案独立开关，点击行号可以注释、取消注释，支持部分Sublime快捷键，比如Ctrl+Shift+D。
 
-![HostsManager](https://raw.githubusercontent.com/lianer/HostsManager/master/img/screenshots/2.gif)
+![HostsManager](http://fs.imlianer.com/hostsmanager/1.0/toggle.gif)
 
-# 下载地址
-[百度网盘](http://pan.baidu.com/s/1i5rqwTn)
+![HostsManager](http://fs.imlianer.com/hostsmanager/1.0/comment.gif)
 
 # 更新历史
-
+2016.07.02
+修改icon
